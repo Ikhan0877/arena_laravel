@@ -1,0 +1,1 @@
+[30-Dec-2020 17:29:28 UTC] PHP Fatal error:  Trait 'App\Mail\Queueaable' not found in /home/arenaqtr/laravel/app/Mail/ContactFormMail.php on line 11
