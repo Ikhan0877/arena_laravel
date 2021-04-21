@@ -71,3 +71,4 @@ Route::get('/placements', function () {
     return view('placements');
 });
 
+Route::get('/blog', "App\Http\Controllers\posts@list" );

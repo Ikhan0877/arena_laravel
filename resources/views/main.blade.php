@@ -71,7 +71,7 @@
         </div>
     </section>
     <!-- industry expert -->
-    <section class="px-2 px-md-5" style="margin-top:100px;">
+    <section class="container px-md-5" style="margin-top:100px;">
         <div style="margin-bottom:50px;">
             <h2 >Industry Expert <span class="text-orange">Talk</span></h2>
             <div class="white-line" style="margin:10px 0;"></div>
@@ -368,28 +368,6 @@
                             </div>
                         </div>
                     </div>
-                    <div class="item" data-hash="nine">
-                        <div class="course-thumbnail-wrapper">
-                            <div class="course-thumbnail">
-                                <div class="course-img" style="background-image:url('images/course-image/bsc.png')">
-                                    
-                                </div>
-                                <div class="course-title">
-                                    <p>B.Sc. - Graphics & VFX </p>
-                                    <span>12 month Course</span>
-                                </div>
-                            </div>
-                            <div class="coure-content-wrapper">
-                                <p class="course-content">Jain (Deemed-to-be University) in association with Arena Animation offers dual certification courses to students, wherein the students will be a part of Jain (Deemed-to-be University) and get Arena Animation’s skill development certification.  The Graphics and VFX Course is a comprehensive course that trains student’s endto-end in all aspects of graphic design, visual effects, fundamentals and techniques of VFX, Animation - 2D and 3D, typography, digital filmmaking, FX, Dynamics and simulation to make them job-ready.</p>
-                                <span class="course-role">Job Roles</span>
-                                <p class="course-job">Web Designer | Layout Designer | Graphics Designer | Flash Animator | Web Developer | Content Management System Specialist | illustrator |Visualizer</p>
-                                <div class="course-actions">
-                                    <a href="" class="course-view">View More</a>
-                                    <a href="" class="course-enroll">Enroll Now</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
                 <div class="course-nav-wrapper">
                     <div class="course-nav">
@@ -464,14 +442,6 @@
                              <span>12 months</span>
                         </div>
                     </div>
-                    <div class="course-nav">
-                        <div class="course-nav-img" style="background-image:url('images/course-image/bsc.png')">
-                        </div>
-                        <div class="course-nav-cont">
-                            <a class="button secondary url" href="#nine"><p>Bsc in Graphics and VFX</p></a> <br>
-                             <span>12 months</span>
-                        </div>
-                    </div>
                 </div>
             </div>
             
@@ -480,39 +450,22 @@
     <!-- degree course -->
     <section class="container-fluid mt-5 mb-5">
         <div class="our-course-nav">
-            <div class="container mb-5" >
+            <div class="container mb-5 " >
                 <h2 >Degree <span class="text-orange">Courses</span></h2>
                 <div class="white-line" style="margin:10px 0;"></div>
             </div>
         </div>
         <div class="container-fluid p-2 p-md-5">
             <div class="row">
-                <div class="col-md-6 mb-4">
+                <div class="col-md-12">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-6 ">
-                                <img src="images/course-image/bsc.png" alt="" class="w-100">
-                            </div>
-                            <div class="col-md-6 ">
-                                <div>
-                                    <h3>Bsc Degree </h3>
-                                    <p>Jain (Deemed-to-be University) in association with Arena Animation offers dual certification courses to students, wherein the students will be a part of Jain (Deemed-to-be University) and get Arena Animation’s skill development certification. </p>
-                                    <div class="course-actions">
-                                        <a href="" class="course-view">View More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-2">
                                 <img src="images/langara.png" alt="" class="w-100">
                             </div>
-                            <div class="col-md-6">
-                                <div>
+                            <div class="col-md-9">
+                                <div class="">
+
                                     <h3>Langara CEA Canada</h3>
                                     <p>Largest cluster of Animation & VFX studios in the world. close to 100+ Entertainment Businesses Over 42,00 jobs are generated by Film and TV production in BC, with more than 80 per cent located in Metro Vancouver.</p>
                                     <div class="course-actions">
@@ -529,69 +482,77 @@
     <!-- degree course end -->
     <!-- students testimonials -->
     <section class="px-2 px-md-5 bg-light mt-5 py-5">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="p-5">
-                    <h2 class="h1">Students <span class="text-orange">Talk</span></h2>
-                    <div class="white-line" style="margin-top:20px;"></div>
-                    <p>Testimonials Provided some of our students of arena animation.</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <div class="" style="background-image:url('images/student.png'); height:300px; width:100%; background-repeat:no-repeat; background-size:cover;background-position:center;">
-                    <div style="background-color:rgba(0,0,0,0.5);height:100%;width:100%;position:relative;">
-                        <div style="position:absolute;bottom:20px; left:20px;">
-                            <a href=""><i class="far fa-play-circle" style="color:white;font-size:30px;"></i>PLAY NOW </a>
-                        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="p-5">
+                        <h2 class="h1">Students <span class="text-orange">Talk</span></h2>
+                        <div class="white-line" style="margin:20px auto;"></div>
+                        <p style="font-size:20px;">Testimonials Provided some of our students of arena animation.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="mt-5 p-5">
+        <div class="container px-5">
             <div class="row">
-                <div class="col-md-4 mt-2">
-                    <div class="p-2 bg-white shadow">
-                        <div class="p-2">
-                            <p class="h6" style="font-size:15px;color:grey;" >I'm attending the online classes since from the lock down has been started. and it's very helpful also the doubts has been cleared on them and if you have doubts at any time with obedient by the teacher and I should be very thankful to the institution was made us such a great opportunity for me to study from house itself by the help of online classes.</p>
-                            <span class="h6">Mr. Hari</span> <br>
-                            <span class="h6">VFX PRIME</span>
+                <div class="col-md-4 col-6">
+                    <div class="" style="background-image:url('images/hari-arena-testimonial.png'); height:300px; width:100%; background-repeat:no-repeat; background-size:cover;background-position:center;">
+                        <div style="background-color:rgba(0,0,0,0.5);height:100%;width:100%;position:relative;">
+                            <div style="position:absolute;bottom:20px; left:20px;">
+                                <a href="https://www.youtube.com/watch?v=Nd8aVQIfcOo&ab_channel=ArenaAnimationBangaloreKammanahalli" style="color:white;display:flex;gap:10px;align-items:center;text-decoration:none"><img src="http://127.0.0.1:8000/images/course-image/arrow-nxt.png" style="border-radius:100px;overflow:hidden;" alt="">   </a>
+                            </div>
+                            
                         </div>
                     </div>
-                </div>
-                <div class="col-md-4 mt-2 ">
-                    <div class="p-2 bg-white shadow">
-                        <div class="p-2">
-                            <p class="h6" style="font-size:15px;color:grey;">I am attending my classes through online and it has been very helpful and comfortable.</p>
-                            <span class="h6">Mr. Chandrashekar</span> <br>
-                            <span class="h6">VFX PRIME</span>
-                        </div>
+                    <div>
+                    <span class="h5 px-2 pt-2 d-inline-block">Mr. Hari</span> <br>
+                        <span class="h6 px-2 d-inline-block">VFX PRIME</span>
                     </div>
                 </div>
-                <div class="col-md-4 mt-2">
-                    <div class="p-2 bg-white shadow">
-                        <div class="p-2">
-                            <p class="h6" style="font-size:15px;color:grey;">I have take VFX prime course at arena kamanahalli as we all know in this qurantine period, we are not able to visit classes in this qurantine period. but considering this student career. arena animation is providing online classes regularly, and even the faculties take the classes regularly without fail. so guys if you great future i strongly suggest arena animation.</p>
-                            <span class="h6">Mr. Vipin</span> <br>
-                            <span class="h6">VFX PRIME</span>
+            
+                <div class="col-md-4 col-6">
+                    <div class="" style="background-image:url('images/pradeep.png'); height:300px; width:100%; background-repeat:no-repeat; background-size:cover;background-position:center;">
+                        <div style="background-color:rgba(0,0,0,0.5);height:100%;width:100%;position:relative;">
+                            <div style="position:absolute;bottom:20px; left:20px;">
+                                <a href="https://www.youtube.com/watch?v=FM6VcOFjf8U&ab_channel=ArenaAnimationBangaloreKammanahalli" style="color:white;display:flex;gap:10px;align-items:center;text-decoration:none"> <img src="http://127.0.0.1:8000/images/course-image/arrow-nxt.png" style="border-radius:100px;overflow:hidden;" alt="">  </a>
+                            </div>
                         </div>
                     </div>
+                    <div>
+                        <span class="h5 px-2 pt-2 d-inline-block">Mr. Pradeep</span> <br>
+                        <span class="h6 px-2 d-inline-block">VFX PRIME</span>
+                    </div>
                 </div>
+                <div class="col-md-4 col-6">
+                    <div class="" style="background-image:url('images/nilofar-arena-testimonail.PNG'); height:300px; width:100%; background-repeat:no-repeat; background-size:cover;background-position:center;">
+                        <div style="background-color:rgba(0,0,0,0.5);height:100%;width:100%;position:relative;">
+                            <div style="position:absolute;bottom:20px; left:20px;">
+                                <a href="https://www.youtube.com/watch?v=Nd8aVQIfcOo&ab_channel=ArenaAnimationBangaloreKammanahalli" style="color:white;display:flex;gap:10px;align-items:center;text-decoration:none"><img src="http://127.0.0.1:8000/images/course-image/arrow-nxt.png" style="border-radius:100px;overflow:hidden;" alt="">   </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <span class="h5 px-2 pt-2 d-inline-block">Ms. Nilofar</span> <br>
+                        <span class="h6 px-2 d-inline-block">GRAPHIC DESIGN</span>
+                    </div>
+                </div>
+                
             </div>
         </div>
     </section>
     <!-- students testimonials -->
     <section class="container" style="margin-top:50px;margin-bottom:100px;"> 
         <div class="mt-5">
-            <h2 class="h1">Students <span class="text-orange">Success Stories</span></h2>
-            <div class="white-line" style="margin-top:20px;"></div>
-            <p>Some of Our students who have worked on below movies.</p>
+            <h2 class="h1 text-center">Students <span class="text-orange">Success Stories</span></h2>
+            <div class="white-line" style="margin:20px auto;"></div>
+            <p class="text-center" style="font-size:20px;"> Some of Our students who have worked on below movies.</p>
         </div>
         <div class="p-5">
             <div class="row">
                 <div class="col-md-3 col-6 p-2">
                     <div class="d-flex " style="background-image:url('images/1917.png');height:300px; width:100%;background-size:cover;backround-repeat:none;">
                         <div style="background-color:rgba(0,0,0,0.5);height:100%;width:100%:">
-                        <div class="text-white p-2 d-flex flex-column align-content-end">
+                        <div class="text-white p-2 d-flex flex-column " style="height: 100%;justify-content: flex-end;">
                             <h2 class="h6">Ranjith Kizhakkey</h2>
                             <span>Sr. Layout Artist,Method Studios</span>
                         </div>
@@ -601,7 +562,7 @@
                 <div class="col-md-3 col-6 p-2">
                     <div class="" style="background-image:url('images/junglebook.png');height:300px; width:100%;background-size:cover;backround-repeat:none;">
                         <div style="background-color:rgba(0,0,0,0.5);height:100%;width:100%:">
-                        <div class="text-white p-2">
+                        <div class="text-white p-2 d-flex flex-column" style="height: 100%;justify-content: flex-end;">
                             <h2 class="h6">Vinay Tiwari</h2>
                             <span>Lightning Artist,Prime Focus Studio</span>
                         </div>
@@ -611,7 +572,7 @@
                 <div class="col-md-3 col-6 p-2">
                     <div class="" style="background-image:url('images/lionking.png');height:300px; width:100%;background-size:cover;backround-repeat:none;">
                         <div style="background-color:rgba(0,0,0,0.5);height:100%;width:100%:">
-                        <div class="text-white p-2">
+                        <div class="text-white p-2 d-flex flex-column" style="height: 100%;justify-content: flex-end;">
                             <h2 class="h6">Shubham Thakare</h2>
                             <span>Technology Resource Manager – Rendering Artist,MPC Films</span>
                         </div>
@@ -621,7 +582,7 @@
                 <div class="col-md-3 col-6 p-2">
                     <div class="" style="background-image:url('images/captain.png');height:300px; width:100%;background-size:cover;backround-repeat:none;">
                         <div style="background-color:rgba(0,0,0,0.5);height:100%;width:100%:">
-                        <div class="text-white p-2">
+                        <div class="text-white p-2 d-flex flex-column" style="height: 100%;justify-content: flex-end;">
                             <h2 class="h6">Snehasis Adhikari</h2>
                             <span>Post Product Artist,Anibrain India</span>
                         </div>

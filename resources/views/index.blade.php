@@ -103,7 +103,7 @@
                             <li class="nav-list"> <a href="{{ url('/placements') }}" class="p-2 text-white">Placements</a> </li>
                             <li class="nav-list"> <a href="{{ url('/courses') }}" class="p-2 text-white">Courses</a> </li>
                             <li class="nav-list"> <a href="{{ url('/contact-us') }}" class="p-2 text-white">Contact Us</a> </li>
-                            <li class="nav-list"> <a href="http://blog.arenakamanahalli.in/category/events/" class="p-2 text-white">Events</a> </li>
+                            <li class="nav-list"> <a href="{{ url('/blog')}}" class="p-2 text-white">Events</a> </li>
                         </ul>
                     </div>
                 </div>
