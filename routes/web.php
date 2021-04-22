@@ -71,4 +71,8 @@ Route::get('/placements', function () {
     return view('placements');
 });
 
-Route::get('/blog', "App\Http\Controllers\posts@list" );
+Route::get('/arena-kamanahalli-events', "App\Http\Controllers\posts@list" );
+
+
+Route::get('/events/{slug}',"App\Http\Controllers\Events@list");
+// Route::get('/events/{slug}',"App\Http\Controllers\ @list");

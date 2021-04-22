@@ -27,6 +27,8 @@
                     <li class="nav-link nav-item"><a href="/">HOME</a></li>
                     <li class="nav-link nav-item"><a href="" class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">COURSES</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown" >
+                            <a class="dropdown-item text-dark" href="/courses">All course</a>
+                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item text-dark" href="/courses/animation/vfx-prime">VFX Prime</a>
                             <a class="dropdown-item text-dark" href="/courses/animation/animation-prime">Animation Prime</a>
                             <a class="dropdown-item text-dark" href="/courses/animation/broadcast-prime">Broadcast Prime</a>
@@ -44,7 +46,7 @@
                     <li class="nav-link nav-item"><a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">WHY ARENA ?</a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item text-dark" href="/placements">Placements</a>
-                            <a class="dropdown-item text-dark" href="http://blog.arenakamanahalli.in/category/events/">Events</a>
+                            <a class="dropdown-item text-dark" href="/arena-kamanahalli-events">Events</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item text-dark" href="#">Industry connect</a>
                             <div class="dropdown-divider"></div>
@@ -103,7 +105,7 @@
                             <li class="nav-list"> <a href="{{ url('/placements') }}" class="p-2 text-white">Placements</a> </li>
                             <li class="nav-list"> <a href="{{ url('/courses') }}" class="p-2 text-white">Courses</a> </li>
                             <li class="nav-list"> <a href="{{ url('/contact-us') }}" class="p-2 text-white">Contact Us</a> </li>
-                            <li class="nav-list"> <a href="{{ url('/blog')}}" class="p-2 text-white">Events</a> </li>
+                            <li class="nav-list"> <a href="{{ url('/arena-kamanahalli-events')}}" class="p-2 text-white">Events</a> </li>
                         </ul>
                     </div>
                 </div>

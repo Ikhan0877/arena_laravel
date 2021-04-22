@@ -98,16 +98,16 @@ header nav{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-.content:hover .content-1{
+/* .content:hover .content-1{
     width:100%;
     padding: 15px;
-}
-.content:hover .contact{
+} */
+/* .content:hover .contact{
     background-image: linear-gradient(to bottom right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);;
     /* background-image: linear-gradient(to bottom left, #30cfd0 0%, #330867 100%); */
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-}
+} */
 /* testimonials */
 
 .our-testimonial{
@@ -623,5 +623,39 @@ header nav{
     .testimonial-img{
         width:100%;
     }
-    
+    .wp-block-columns{
+        flex-direction: column;
+        gap: 10px;
+        /* padding: 10px; */
+      }
 }
+
+
+/* blog style */
+.wp-block-gallery{
+    /* background-color: red; */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .blocks-gallery-grid{
+    margin: 0;
+    padding: 0;
+  }
+  figure{
+    margin: 0;
+  }
+  figure > img{
+    width: 100%;
+  }
+  .wp-block-columns{
+    display: flex;
+    gap: 10px;
+  }
+  .wp-block-columns .wp-block-column{
+    width: 100%;
+  }
+  .blog-content p{
+      font-size: 20px;
+      padding: 20px 0;
+  }
